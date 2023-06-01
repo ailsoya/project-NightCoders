@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #111111;
+  --secondary-color: #fd9222;
+  --bg-color-site: #e2e2e2;
+  --bg-color-section: #1e1823;
+  --white-color: #ffffff;
+  --accent-orange-btn: #fcf1e0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ======= Common styles ======= */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+  background-color: var(--bg-color-site);
+}
+
+.container {
+  min-width: 320px;
+  max-width: 335px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
