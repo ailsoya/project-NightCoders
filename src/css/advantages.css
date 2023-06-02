@@ -4,30 +4,18 @@
 }
 .advant-container {
   padding-top: 20px;
-<<<<<<< Updated upstream
-  padding-bottom: 20px;
-=======
   padding-bottom: 36px;
->>>>>>> Stashed changes
 }
 @media only screen and (min-width: 768px) {
   .advant-container {
     padding-top: 50px;
-<<<<<<< Updated upstream
-    padding-bottom: 50px;
-    margin-bottom: 100px;
-=======
     padding-bottom: 85px;
->>>>>>> Stashed changes
   }
 }
 @media only screen and (min-width: 1200px) {
   .advant-container {
     padding: 50px;
-<<<<<<< Updated upstream
     margin-bottom: 128px;
-=======
->>>>>>> Stashed changes
   }
 }
 .advant-list {
