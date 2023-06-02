@@ -1,0 +1,42 @@
+.hero > .container {
+  max-width: 335px;
+  padding-top: 395px;
+  padding-bottom: 20px;
+
+  border-radius: 30px;
+
+  background-image: url(../img/hero/bg_hero_mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  margin-bottom: 32px;
+
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.hero-btn-list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.hero-scroll-btn {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero-scroll-label {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+}
