@@ -107,8 +107,8 @@
   color: var(--white-color);
   padding: 12px 28px;
   border: none;
-  max-width: 128px;
-  min-height: 41px;
+  width: 128px;
+  height: 41px;
   border-radius: 100px;
   background-color: var(--secondary-color);
   cursor: pointer;
@@ -118,8 +118,8 @@
 
 @media screen and (min-width: 375px) {
   .subscribe-btn {
-    max-width: 172px;
-    min-height: 50px;
+    width: 172px;
+    height: 50px;
 
     font-size: 18px;
     line-height: 1.22;
