@@ -1,5 +1,5 @@
 
-.container {
+/* .container {
     padding: 0 20px;
     min-width: 320px;
     max-width: 375px;
@@ -15,12 +15,14 @@
     .container {
    max-width: 1440px;
   }
-}
+} */
 
 /* .top-sellers {
 
 } */
 .top-sellers-subscribe {
+margin-bottom: 32px;
+
     font-weight: 600;
     font-size: 20px;
     line-height:1.2;
@@ -33,13 +35,40 @@
 .tsellers-sub {
     color: #111;
 }
-/* .tsellers-list{
+@media only screen and (min-width: 768px) {
+    .top-sellers-subscribe  {
+    margin-bottom: 50px;
+  }
+}
+.tsellers-list{
 
-} */
-.tsellers-item {
-border-radius: 15px;
 }
 
+@media only screen and (min-width: 768px) {
+    .tsellers-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+}
+.tsellers-item {
+    
+/* border-radius: 15px; */
+}
+
+@media only screen and (min-width: 768px) {
+    .tsellers-item {
+    width: 344px;
+
+  }
+}
+
+@media only screen and (min-width: minwidthpx) {
+    .tsellers-item {
+    width: 368px;
+  }
+}
 .tsellers-text {
     font-weight: 400;
     font-size: 14px;
@@ -47,7 +76,30 @@ border-radius: 15px;
     letter-spacing: -0.02em;
     color: #111111; 
 }
-.button-tsellers {
+@media only screen and (min-width: 768px) {
+    .tsellers-text  {
+    width: 306px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+    .tsellers-text {
+    width: 407px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+    .tsellers-item-desktop {
+        display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+ .tsellers  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+  }
+}
+ /* .button-tsellers {
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -57,13 +109,16 @@ gap: 14px;
 width: 120px;
 height: 41px;
 
-background: #FD9222;
-border-color: #FD9222;
+background: var(--secondary-color);
+border-color: var(--secondary-color);
 border-radius: 100px;
 
 font-weight: 600;
 font-size: 14px;
 line-height: 1.2;
 
-color: #fff ;
-}
+color: var(--white-color) ;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+} */
