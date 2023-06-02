@@ -102,17 +102,78 @@
   padding-left: 18px;
   background-color: transparent;
   outline: transparent;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   /* filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03)); */
   border-radius: 8px;
   margin-bottom: 14px;
 }
 
-.md-review-input::placeholder {
+.md-review-input::placeholder,
+.md-review-comment::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: rgba(64, 64, 64, 0.3);
+}
+
+.md-review-input[type='tel'] {
+  padding-left: 106px;
+}
+
+.md-review-wrapper {
+  position: relative;
+}
+
+.md-review-region {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 8px;
+  padding-right: 8px;
+  pointer-events: none;
+}
+
+.md-review-region::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: block;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(64, 64, 64, 0.3);
+}
+
+.md-review-region > span {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  display: block;
+}
+
+.md-review-comment {
+  width: 100%;
+  height: 91px;
+  padding: 14px 18px;
+  background-color: transparent;
+  outline: transparent;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  margin-bottom: 18px;
+  resize: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }

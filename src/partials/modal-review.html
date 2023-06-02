@@ -23,13 +23,27 @@
         placeholder="Enter your email"
         required
       />
-      <input
-        class="md-review-input"
-        type="tel"
-        name="phone"
-        placeholder="Phone number"
-        required
-      />
+      <div class="md-review-wrapper">
+        <input
+          class="md-review-input"
+          type="tel"
+          name="phone"
+          placeholder="Phone number"
+          required
+        />
+        <div class="md-review-region">
+          <svg class="md-review-flag" width="24" height="18">
+            <use href="../img/icons.svg#icon-flag"></use>
+          </svg>
+          <span>+380</span>
+        </div>
+      </div>
+      <textarea
+        class="md-review-comment"
+        name="comment"
+        placeholder="Enter text"
+      ></textarea>
+      <button type="submit" class="btn-orange">Send</button>
     </form>
   </div>
 </div>
