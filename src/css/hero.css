@@ -83,6 +83,12 @@
   letter-spacing: -0.03em;
 }
 
+.hero-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* .hero-btn {
   padding: 12px 28px;
 
