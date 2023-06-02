@@ -8,15 +8,51 @@
   background-size: cover;
 }
 
-/* linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), */
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../img/subscribe/subcribe-mobile@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../img/subscribe/subcribe-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../img/subscribe/subcribe-tablet@2x.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../img/subscribe/subcribe-desktop.jpg);
+    /* padding: 112px 0; */
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../img/subscribe/subcribe-desktop@2x.jpg);
+    }
+  }
+}
 
 .subscribe-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 62px 0;
-  /* padding-top: 62px;
-  padding-bottom: 63px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -80,15 +116,15 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* @media screen and (min-width: 768px) {
-  .btn-subscribe {
+@media screen and (min-width: 375px) {
+  .subscribe-btn {
     max-width: 172px;
     min-height: 50px;
 
     font-size: 18px;
     line-height: 1.22;
   }
-} */
+}
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
