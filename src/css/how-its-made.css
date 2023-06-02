@@ -1,10 +1,10 @@
-.how-its-made-section {
+.how-made-section {
 
 }
-.how-its-made-container {
-  
+.how-made-container {
+
 }
-.how-its-made-title {
+.how-made-title {
   margin-bottom: 32px;
 
   font-weight: 600;
@@ -15,18 +15,19 @@
   text-transform: uppercase;
   color: #111111;
 }
-.how-its-made-title-second {
+.how-made-title-second {
   color: #fd9222;
 }
-.how-its-made-try{
+.how-made-try{
 width: 335px;
 height: 456px;
+padding: 20px 14px;
 
 background: #FFFFFF;
 border-radius: 15px;
 }
 
-.how-its-made-subtitle {
+.how-made-subtitle {
     margin-top: 40px;
   margin-bottom: 20px;
 
@@ -38,10 +39,10 @@ border-radius: 15px;
 .how-its-made-list {
     list-style-type: disc;
 }
-.how-its-made-item:not(:last-child) {
+.how-made-item:not(:last-child) {
     margin-bottom: 18px;
 }
-.how-its-made-text {
+.how-made-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
