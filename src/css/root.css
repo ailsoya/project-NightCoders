@@ -172,9 +172,3 @@ body {
     line-height: 1.22;
   }
 }
-
-.btn-subscribe:hover,
-.btn-subscribe:focus {
-  color: var(--secondary-color);
-  background-color: var(--accent-orange-btn);
-}
