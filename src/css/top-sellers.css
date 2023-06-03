@@ -1,25 +1,5 @@
+/* top-sellers-section */
 
-/* .container {
-    padding: 0 20px;
-    min-width: 320px;
-    max-width: 375px;
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-     padding: 0 32px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container {
-   max-width: 1440px;
-  }
-} */
-
-/* .top-sellers {
-
-} */
 .top-sellers-subscribe {
 margin-bottom: 32px;
 
@@ -43,7 +23,21 @@ margin-bottom: 32px;
 .tsellers-list{
 
 }
-
+@media only screen and (max-width: 767px) {
+    .other-skr {
+      display: none;
+    }
+  }
+@media only screen and (min-width: 768px) {
+  .other-skr{
+   ;
+  }
+}
+  @media only screen and (min-width: 768px) {
+    .tsellers-list-mobile {
+      display: none;
+    }
+  }
 @media only screen and (min-width: 768px) {
     .tsellers-list {
     display: flex;
@@ -99,6 +93,7 @@ border-radius: 15px;
     
   }
 }
+
  /* .button-tsellers {
 display: flex;
 flex-direction: row;
