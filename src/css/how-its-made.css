@@ -1,3 +1,5 @@
+/*  ? HOW IT'S MADE */
+
 .how-made-title {
   margin-bottom: 32px;
 
@@ -34,6 +36,15 @@
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.how-made-wrapper {
+
+}
+
+.how-made-icons {
+  fill: none;
+  stroke:white;
 }
 
 .how-made-img {
