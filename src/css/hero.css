@@ -22,7 +22,7 @@
 @media screen and (min-width: 768px) {
   .hero > .container {
     max-width: 704px;
-    padding-top: 671px;
+    padding: 671px 40px 40px;
 
     background-image: url(../img/hero/bg_hero_tablet.jpg);
   }
@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .hero > .container {
     max-width: 1136px;
     padding-top: 381px;
@@ -63,6 +63,14 @@
   letter-spacing: -0.03em;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 484px;
+    font-size: 28px;
+    line-height: 1.21;
+  }
+}
+
 .hero-btn-list {
   display: flex;
   gap: 14px;
@@ -83,26 +91,20 @@
   letter-spacing: -0.03em;
 }
 
-.hero-btns {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  .hero-scroll-label {
+    font-size: 14px;
+    line-height: 1.29;
+  }
 }
 
-/* .hero-btn {
-  padding: 12px 28px;
-
-  color: var(--white-color);
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.2;
-
-  background-color: var(--secondary-color);
-  border: none;
-  border-radius: 100px;
+@media screen and (min-width: 768px) {
+  .hero-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-btn-list {
+    margin-bottom: 0;
+  }
 }
-
-.transparent-btn {
-  background-color: transparent;
-  border: 1px solid var(--white-color);
-} */
